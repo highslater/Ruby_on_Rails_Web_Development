@@ -1,0 +1,243 @@
+Close
+Module 1 Quiz
+
+19 questions
+
+1. 
+In order to install Browser Sync, what must be installed first?
+
+Javascript
+
+Java
+
+Google Chrome Developer Tools
+
+*NodeJs
+
+Ruby
+
+2. 
+The core purpose of HTML is to
+
+(hint: something a pure text file with content won't be able to accomplish)
+
+Tell the browser how to position and align content in the browser window
+
+Display web page content to the user
+
+*Communicate the structure of the content
+
+Tell the browser what should happen once the page is loaded
+
+3. 
+W3C (World Wide Web Consortium) is the only organization that dictates what and how browsers should implement HTML5
+
+*False
+
+True
+
+4. 
+ALL HTML5 tags must
+
+Have a closing tag
+
+Have an 'id' attribute
+
+*Have an opening tag
+
+Be lower case, i.e., <p>, not <P>.
+
+Have at least 1 attribute
+
+5. Wrong Answer
+Identify correct HTM5 page declaration(s)
+
+<!doctype html>YES
+
+<html-document>NOPE
+
+<! doctype html> NOPE
+
+<!DocTyPe htML   >YES
+
+<!DOCTYPE html>YES
+
+<!doctype html5>NOPE
+
+6. 
+What would happen if you didn't specify the HTML5 declaration?
+
+The page will not display at all
+
+How should I know? I didn't really watch the videos!
+
+Nothing. HTML5 is very liberal about its declaration and it's only a recommendation to use it
+
+The browser will revert to the previous version of HTML automatically
+
+*The page will be interpreted in quirks mode
+
+7. 
+Browsers ALWAYS interpret HTML sequentially, top to bottom
+
+*True
+
+False
+
+8. 
+Identify invalid HTML code snippet below (assume code around, i.e., declaration, etc. is valid)
+
+<div><span>Will you just tag along with me?</span></div>
+
+*<section>
+<p>The sale numbers are in...
+</section> You ARE a closer, Johnson!
+</p>
+
+<div>Hey there!
+
+I am just a lonely quiz answer. Will you click me? I am bored!
+
+</div>
+
+
+<article>
+<h2>Wow! 
+</h2>
+<p>You're ignoring all the other answers just to 
+look at me?! I AM special!
+... 
+Wait! Where are you going? 
+What if I AM the answer you've been searching for???!
+</p>
+</article>
+
+9. 
+Meta tags communicate information about the browser to the server
+
+True
+
+*False
+
+10. 
+Without applying any addition styles, the following code snippet will show up in the browser as how many lines of text? (Assume the browser is stretched wide enough not to cause any single line to wrap)
+
+<div>Dear all,
+<span>I took this really cool course
+</span></div>
+<span>on Coursera.org. I think it's
+my favorite course I've EVER taken!
+Here is the URL for it:
+</span>
+<a href="...">HTML, CSS and JS for Web Developers</a>
+<div>
+Does anyone know how I can give this course 6
+out of 5 stars?
+</div>
+<div>
+Thank you,
+-Yaakov.... I mean a random student! Definitely not Yaakov.
+<div>
+
+1
+
+2
+
+9
+
+*4
+
+3
+
+7
+
+10
+
+11. 
+Identify invalid HTML code snippet (assume code above and below this code is valid)
+
+<a>I love <div>gardening<span>!</span></div></a>
+
+<div>I love <span>gardening!</span></div>
+
+All are valid!
+
+*<span>I love <div>gardening</div></span>
+
+12. 
+Semantic HTML tags
+
+Are required to be used in HTML5
+
+*Help computers better understand the structure of the page
+
+*Help humans better understand the structure of the page
+
+*May help the SEO ranking of the page
+
+13. 
+One purpose of HTML Character Entity References is
+
+*To allow the browser to display certain characters it would otherwise interpret as part of HTML code and not something to display to the user
+
+HTML Character Entity References were useful before HTML5 was introduced. After HTML5, they are no longer needed
+
+Identify character sets that the browser can support
+
+14. 
+Using only HTML, how would you make sure that 3 words in an HTML document ALWAYS appear together on 1 line, even if the text word-wraps because the browser window is too narrow for that text line?
+
+*Place &nbsp; entity reference after the 1st word and after the 2nd word (with no spaces in between words and entity references)
+
+Place &nowrap; entity reference before the 1st word and after the 3rd word
+
+Place &nbsp; entity reference before the 1st word and after the 3rd word
+
+Impossible to accomplish with HTML alone!
+
+15. 
+How can you force the browser to open a link in a new window or tab?
+
+Include target="new" attribute as part of the <a> tag
+
+*Include target='_blank' attribute as part of the <a> tag
+
+Instruct the user to right-click on the link and choose "Open in a New Tab"
+
+Send some special meta tags as part of the page
+
+16. 
+The following code rendering in the middle section of the page allows someone to directly link to that middle section of the page, not just the beginning of the page:
+
+<div id="superInterestingContentHere">Bla Bla</div>
+
+False
+
+*True
+
+17. 
+Even though the width and height attributes of the 'img' tag are not required, it's always a good idea to use them
+
+*True
+
+False
+
+18. 
+WHATWG does NOT version HTML. For them, it's NOT HTML5. It's just HTML.
+
+*True
+
+False
+
+19. 
+Quirks Mode is when the browser
+
+*Assumes that the HTML in the web page is NOT following the HTML standard, i.e., not in standards mode. Styles won't work correctly, etc.
+
+Can become unstable and crash in the middle of rendering a web page
+
+This is a made up term. No such thing
+16 questions unanswered
+Submit Quiz
+
+
