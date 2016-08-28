@@ -29,6 +29,7 @@ end
   end
 
   def analyze_file()
+    # creates 3 line analyzers (FAILED - 1)
     #* Read the 'test.txt' file in lines 
    # File.foreach( 'test.txt' ) do |line|
       #* Create an array of LineAnalyzers for each line in the file
@@ -37,6 +38,8 @@ end
   end
 
   def calculate_line_with_highest_frequency()
+    # calculates highest count across lines to be 4 (FAILED - 2)
+    # calculates highest count words across lines to be will, it, really (FAILED - 3)
     #* calculate the maximum value for highest_wf_count contained by the LineAnalyzer objects in analyzers array and stores this result in the highest_count_across_lines attribute.
     #* identifies the LineAnalyzer objects in the analyzers array that have highest_wf_count equal to highest_count_across_lines attribute value determined previously and stores them in highest_count_words_across_lines.
   end
