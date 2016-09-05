@@ -3,14 +3,10 @@ class LineAnalyzer
     def initialize (content, line_number)
     @content = content
     @line_number = line_number
-
-
-    calculate_word_frequency ()
+    calculate_word_frequency
   end
 
-
-  
-    def calculate_word_frequency()
+  def calculate_word_frequency()
     @highest_wf_words = []
     hash = Hash.new ()
     hash.each do |i|
@@ -25,4 +21,5 @@ class LineAnalyzer
     hash.select!{|k, v| v == @highest_wf_count} 
     hash.each_key{|key| @highest_wf_words << key}    
   end 
+  
 end  

@@ -1,0 +1,30 @@
+first_array = []
+first_array << [1, "this"]
+first_array.push([2, "is"])
+first_array << [3, "an"]
+first_array << [4, "example"]
+first_array.insert(3,[4, "array"])
+[[1, "this"], [2, "is"], [3, "an"], [4, "array"], [4, "example"]]
+first_array.max_by {|a| a[0]}
+[4, "array"]
+p first_array.max_by {|a| a[0]}[0]
+4
+
+second_array = first_array.select {|a| a[0] == 4} second_array [[4, "array"],
+[4, "example"]] < or > second_array = first_array.select {|a| a[0] ==
+first_array.max_by {|a| a[0]}[0]} second_array [[4, "array"], [4, "example"]]
+
+third_array = []
+first_array.select {|a| a[0] == 4}.each { |c| third_array << c[1]}
+third_array
+["array", "example"]
+
+
+Working Backwards
+
+
+
+
+arr1 = [[["will"], ["it"]], ["really"]]
+arr2 = arr.flatten
+["will", "it", "really"]
