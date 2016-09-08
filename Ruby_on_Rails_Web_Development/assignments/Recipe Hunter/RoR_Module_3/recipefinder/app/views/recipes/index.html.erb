@@ -1,0 +1,26 @@
+<h1>Recipes#index</h1>
+<p>Find me in app/views/recipes/index.html.erb</p>
+<table border="1">
+  <tr>
+    <th>thumbnail</th>
+    <th>title</th>
+    <th>social rank</th>
+  </tr>
+  <% @recipes.each do |recipe| %>
+    <tr class=<%= cycle('even', 'odd') %>>
+      <td>
+        <a href='#'>
+          <%= image_tag(recipe["image_url"]) %>
+        </a>
+      </td>
+      <td>
+        <a href='#'>
+          <%= recipe["title"] %>
+        </a>
+      </td>
+      <td>
+        <%= recipe["social rank"] %>
+      </td>
+    </tr>
+  <% end %>
+</table>

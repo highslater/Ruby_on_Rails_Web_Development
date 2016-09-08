@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recipefinder</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <%= yield %>
+    <p><a href="http://www.food2fork.com">Powered By Food2Fork.com</a></p>
+    <!--
+
+    All paid API plans are free of commercial use restrictions. 
+    Free API plans may be used in commercial services or products with attribution. This attribution must say "Powered By Food2Fork.com". If possible, it must also link to Food2Fork.com. With mobile Apps this link is not necessary.
+    
+    -->
+  </body>
+</html>
